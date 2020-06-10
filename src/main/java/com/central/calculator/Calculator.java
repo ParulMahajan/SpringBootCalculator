@@ -16,12 +16,11 @@ public class Calculator {
     private static Calculator calculatorInstance = null;
     
     private Calculator() {
-       System.out.println("Calc constructor called");
-
+       
         operationMap.put('+', new Addition());
         operationMap.put('-', new Subtraction());
         operationMap.put('*', new Multiplication());
-        operationMap.put('/', new Division());
+        operationMap.put('%', new Division());
     }
     
     public static Calculator getInstance() {

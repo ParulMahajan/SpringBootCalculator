@@ -36,7 +36,7 @@ public class CalculatorController {
 
 			if(operand.length() == 1 ) {
 				char operandc1 = operand.charAt(0);
-				if(operandc1 == '+' || operandc1 == '-' || operandc1 == '*' || operandc1 == '/') {
+				if(operandc1 == '+' || operandc1 == '-' || operandc1 == '*' || operandc1 == '%') {
 
 					// using single instance of calculator class.
 					double result =  Calculator.getInstance().makeCalculation(paramd1, paramd2, operandc1);
