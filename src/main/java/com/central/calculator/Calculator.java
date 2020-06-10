@@ -20,7 +20,7 @@ public class Calculator {
         operationMap.put('+', new Addition());
         operationMap.put('-', new Subtraction());
         operationMap.put('*', new Multiplication());
-        operationMap.put('%', new Division());
+        operationMap.put('@', new Division());
     }
     
     public static Calculator getInstance() {
