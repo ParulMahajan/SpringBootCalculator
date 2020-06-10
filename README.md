@@ -1,5 +1,5 @@
 # SpringbootCalculator
-1. This project about a basic calculator. Using SpringBoot and swagger.
+1. This project is about a basic calculator using SpringBoot and swagger.
 
 2. Configure the server port and application root context in application.properties.
 
